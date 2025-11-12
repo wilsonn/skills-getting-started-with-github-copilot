@@ -15,7 +15,8 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
-        <div id="activities-list">
+        <!-- aria-live para anunciar cambios en la lista cuando se cargan las actividades -->
+        <div id="activities-list" role="region" aria-live="polite">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
         </div>
